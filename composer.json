@@ -1,0 +1,27 @@
+{
+    "name": "macedigital/silex-jms-serializer",
+    "description": "Use JMS Serializer for (de-)serializing object graphs in silex applications",
+    "keywords": ["silex", "serializer", "provider", "jms"],
+    "homepage": "https://github.com/macedigital/silex-jms-serializer-provider",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Matthias Adler",
+            "email": "macedigital@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10",
+        "silex/silex": "1.0.*@dev",
+        "jms/serializer": ">=0.12,<=0.13.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/SerializerProvider.php"
+        ]
+    }
+}
