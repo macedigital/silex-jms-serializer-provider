@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.10",
-        "silex/silex": "1.0.*",
+        "silex/silex": "1.*",
         "jms/serializer": ">=0.12,<=0.13.x-dev"
     },
     "require-dev": {
