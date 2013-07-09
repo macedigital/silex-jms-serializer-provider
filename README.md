@@ -31,7 +31,7 @@ $app = new Silex\Application();
 $app['serializer.debug'] = true;
 
 // optional: defaults to system's default temporary folder 
-$app['serializer.cache_dir] = '/some/writable/folder';
+$app['serializer.cache_dir'] = '/some/writable/folder';
 
 $app->register(new Macedigital\Silex\Provider\SerializerProvider);
 
